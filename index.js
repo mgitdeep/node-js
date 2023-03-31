@@ -25,4 +25,27 @@ const fs = require("fs")
 
 // Rename a file
 
-fs.renameSync('read.txt', 'read-write.txt')
+// fs.renameSync('read.txt', 'read-write.txt')
+
+
+
+// |||||||||||||||   V6   |||||||||||||||||||
+
+// Creating a folder
+// fs.mkdirSync('deepTech')
+
+// Put a file in that folder
+// fs.writeFileSync('deepTech/bio.txt', 'Creating a new file')
+
+// const data = fs.readFileSync('deepTech/bio.txt', "utf-8")
+// console.log(data)
+
+// fs.renameSync('deepTech/bio.txt', 'deepTech/bio-r&w.txt')
+
+// Delete a file
+// fs.writeFileSync('deepTech/yoo.txt', "Gonna delete this file")
+// fs.unlinkSync('deepTech/yoo.txt')
+
+// Delete a directory
+// fs.mkdirSync('delFolder')
+fs.rmdirSync('delFolder')
