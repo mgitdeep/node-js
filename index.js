@@ -1,3 +1,5 @@
+// Explored Node functions on Synchronous files
+
 // console.log("Mondeep's empire is soo close and building rapidly :)")
 
 const fs = require("fs")
