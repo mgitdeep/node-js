@@ -1,0 +1,2 @@
+
+# /node_modules  - Ignored this file as we discovered the way to ignore the node_modules from the root .gitignore file
